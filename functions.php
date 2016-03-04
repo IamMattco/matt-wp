@@ -39,3 +39,18 @@
     flush_rewrite_rules( false );
   }
   add_action('init', 'slider_register'); 
+
+    // sidebars
+
+  add_action( 'widgets_init', 'default_sidebar' );
+  function default_sidebar() {
+    register_sidebar( array(
+        'name' => __( 'Main Sidebar', 'mattwp-theme' ),
+        'id' => 'main-sidebar',
+        'description' => __( 'Widgets in sidebar', 'mattwp-theme' ),
+        'before_widget' => '<div class="widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<div class="widget-title">',
+        'after_title'   => '</div>',
+    ) );
+  }
