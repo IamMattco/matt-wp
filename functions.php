@@ -1,10 +1,10 @@
 <?php 
-  if(!defined('MR_THEME_DIR')) {
-    define('MR_THEME_DIR', get_theme_root().'/'.get_template().'/');
+  if(!defined('MATTWP_THEME_DIR')) {
+    define('MATTWP_THEME_DIR', get_theme_root().'/'.get_template().'/');
   } 
 
-  if(!defined('MR_THEME_URL')) {
-    define('MR_THEME_URL', WP_CONTENT_URL.'/themes/'.get_template().'/');
+  if(!defined('MATTWP_THEME')) {
+    define('MATTWP_THEME', WP_CONTENT_URL.'/themes/'.get_template().'/');
   }
 
   require_once (dirname(__FILE__) . '/framework/mattwp-config.php');
