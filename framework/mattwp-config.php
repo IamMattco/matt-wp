@@ -126,13 +126,13 @@
         $theme = wp_get_theme();
 
         $this->args = array(
-          'opt_name'           => 'mrozidlo',
-          'display_name'       => $theme->get( 'mrozidlo' ),
+          'opt_name'           => 'mattwp',
+          'display_name'       => $theme->get( 'mattwp' ),
           'display_version'    => $theme->get( 'Version' ),
           'menu_type'          => 'menu',
           'allow_sub_menu'     => true,
-          'menu_title'         => __( 'Mrozidlo', 'mrozidlo-theme' ),
-          'page_title'         => __( 'Mrozidlo settings', 'mrozidlo-theme' ),
+          'menu_title'         => __( 'MattWP', 'mattwp-theme' ),
+          'page_title'         => __( 'MattWP settings', 'mattwp-theme' ),
           'google_api_key'     => '',
 
           'async_typography'   => false,
