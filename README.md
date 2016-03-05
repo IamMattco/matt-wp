@@ -1,6 +1,6 @@
 # matt-wp
 
-![alt text](https://github.com/MateuszM/matt-kitt/raw/master/home.jpg "Home")
+![alt text](https://github.com/MateuszM/matt-kitt/raw/master/screen.jpg "Screen")
 
 Ground zero for your next WordPress project, using [MattKit](https://github.com/MateuszM/matt-kitt)
 
