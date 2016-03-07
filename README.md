@@ -1,4 +1,4 @@
-# matt-wp
+# MattWP
 
 ![alt text](https://raw.githubusercontent.com/MateuszM/matt-wp/master/screen.jpg "Screen")
 
